@@ -28,14 +28,8 @@
 
     <!-- Topbar Section Start -->
     <div class="topbar">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12 text-center">
-                    <div class="topbar-content-info">
-                        <p><i class="fa-solid fa-suitcase"></i> Independent Carrier Calibrations and Custom Travel Bag Blueprints</p>
-                    </div>
-                </div>
-            </div>
+        <div class="container text-center">
+            <i class="fa-solid fa-suitcase"></i> Independent Carrier Calibrations and Custom Travel Bag Blueprints
         </div>
     </div>
     <!-- Topbar Section End -->
@@ -69,68 +63,59 @@
 	</header>
 	<!-- Header End -->
    
-    <!-- Variable-Width Asymmetrical Triple-Slab Hero Grid Start (Image Section 1 - Text Removed) -->
-    <section class="variable-width-hero">
-        <div class="hero-slab-item slab-one" data-reveal="left">
+    <!-- Brutalist Hero Section Start (Image Section 1 - Text Removed) -->
+    <section class="brutalist-hero">
+        <div class="hero-column col-left" data-reveal="left">
             <img src="assets/img/hero.jpg" alt="Aesthetic custom leather bag stitching detail close up">
         </div>
-        <div class="hero-slab-item slab-two" data-reveal="zoom">
+        <div class="hero-column col-right" data-reveal="right">
             <img src="assets/img/coll_1.jpg" alt="Premium travel backpack hanging detail">
         </div>
-        <div class="hero-slab-item slab-three" data-reveal="right">
-            <img src="assets/img/coll_2.jpg" alt="Leather wallet tools flatlay layout">
-        </div>
     </section>
-    <!-- Variable-Width Asymmetrical Triple-Slab Hero Grid End -->
+    <!-- Brutalist Hero Section End -->
 
-    <!-- Section 1: The Atelier Calibrations (Interactive Accordion Grid) -->
-    <section class="tech-rows-section">
+    <!-- Section 1: The Calibrated Workbench (3-Column Isometric Grid) -->
+    <section class="workbench-section">
         <div class="container">
             <div class="section-title" data-reveal>
                 <span>Atelier Audits</span>
-                <h2>The Atelier Calibrations</h2>
+                <h2>The Calibrated Workbench</h2>
             </div>
             
-            <div class="tech-rows-list">
-                <!-- Row 1 -->
-                <div class="tech-row-item" data-reveal="left">
-                    <div class="tech-row-meta">
+            <div class="workbench-grid">
+                <!-- Card 1 (Span 2) -->
+                <div class="brutalist-card span-2" data-reveal="left">
+                    <div>
                         <span>[ CARRIER TIER 01 // SEAM CALIBRATION ]</span>
                         <h3>Junction Seam Lockings</h3>
+                        <p>We monitor stitch line warp scales, adjusting thread tension and needle heights to protect backpack load joints from seam sags. Our checkers measure lining wear speeds relative to main bag widths to align inner pockets with outer zips.</p>
                     </div>
-                    <div class="tech-row-desc">
-                        We monitor stitch line warp scales, adjusting thread tension and needle heights to protect backpack load joints from seam sags.
-                    </div>
-                    <div class="tech-row-action">
-                        <a href="blog.html" class="btn-default">Read Seam Logs</a>
+                    <div>
+                        <a href="blog.html" class="btn-brutalist">Read Seam Logs</a>
                     </div>
                 </div>
                 
-                <!-- Row 2 -->
-                <div class="tech-row-item" data-reveal="right">
-                    <div class="tech-row-meta">
+                <!-- Card 2 (Span 1) -->
+                <div class="brutalist-card" data-reveal="right">
+                    <div>
                         <span>[ CARRIER TIER 02 // LOAD TESTING ]</span>
                         <h3>Strap Load Limits</h3>
+                        <p>We apply double-thread rivet locks, testing strap anchor lines under tension scales to stop hardware snaps.</p>
                     </div>
-                    <div class="tech-row-desc">
-                        We apply double-thread rivet locks, testing strap anchor lines under tension scales to stop hardware snaps.
-                    </div>
-                    <div class="tech-row-action">
-                        <a href="blog.html" class="btn-default">Read Load Logs</a>
+                    <div>
+                        <a href="blog.html" class="btn-brutalist">Read Load Logs</a>
                     </div>
                 </div>
                 
-                <!-- Row 3 -->
-                <div class="tech-row-item" data-reveal="left">
-                    <div class="tech-row-meta">
+                <!-- Card 3 (Span 3) -->
+                <div class="brutalist-card span-3" data-reveal="zoom">
+                    <div>
                         <span>[ CARRIER TIER 03 // INSULATION ]</span>
-                        <h3>Lining Heat Check</h3>
+                        <h3>Lining Heat Check & Moisture Seals</h3>
+                        <p>We evaluate inner pocket canvas backings and linen lining densities, ensuring proper water resistance inside duffle bags. By matching leather weights to grain counts, we build bags that protect travel structures under rain peaks.</p>
                     </div>
-                    <div class="tech-row-desc">
-                        We evaluate inner pocket canvas backings and linen lining densities, ensuring proper water resistance inside duffle bags.
-                    </div>
-                    <div class="tech-row-action">
-                        <a href="blog.html" class="btn-default">Read Lining Logs</a>
+                    <div>
+                        <a href="blog.html" class="btn-brutalist">Read Lining Logs</a>
                     </div>
                 </div>
             </div>
@@ -138,52 +123,64 @@
     </section>
     <!-- Section 1 End -->
 
-    <!-- Section 2: Staggered Alternating Timeline (Image Section 2 & 3) -->
-    <section class="staggered-alternating">
+    <!-- Section 2: Step-by-Step Flow Grid (Image Section 2 & 3) -->
+    <section class="flow-section">
         <div class="container">
             <div class="section-title" data-reveal>
                 <span>Atelier Standards</span>
                 <h2>Anatomy of Custom Bag</h2>
             </div>
             
-            <!-- Row 1 (Image Left, Text Right) -->
-            <div class="stagger-row">
-                <div class="stagger-img" data-reveal="left">
-                    <img src="assets/img/coll_3.jpg" alt="Canvas messenger bag detail close up">
+            <div class="flow-grid">
+                <!-- Column 1: Image Top, Text Bottom -->
+                <div class="flow-item" data-reveal="left">
+                    <div class="flow-img">
+                        <img src="assets/img/coll_3.jpg" alt="Canvas messenger bag detail close up">
+                    </div>
+                    <div class="flow-text">
+                        <span>Process Tier 1</span>
+                        <h4>Strap Lock Tests</h4>
+                        <p>We analyze shoulder strap anchor thicknesses, reinforcement canvas sheets, and copper rivet margins to calculate flat load drops. This prevents leather messenger bags from pulling or warping.</p>
+                    </div>
                 </div>
-                <div class="stagger-text" data-reveal="right">
-                    <span>Process Tier 1</span>
-                    <h2>Strap Lock Tests</h2>
-                    <p>We analyze shoulder strap anchor thicknesses, reinforcement canvas sheets, and copper rivet margins to calculate flat load drops. This prevents leather messenger bags from pulling or warping across the main handle.</p>
-                    <a href="about.html" class="btn-default mt-3">Explore Strap Blueprint</a>
+                
+                <!-- Column 2: Text Top, Image Bottom -->
+                <div class="flow-item" data-reveal="zoom">
+                    <div class="flow-text">
+                        <span>Process Tier 2</span>
+                        <h4>Lining Warp Checks</h4>
+                        <p>Our checkers measure lining wear speeds relative to main bag widths to align inner pockets with outer zips. This keeps duffle bag bases hanging flat even under full travel loads.</p>
+                    </div>
+                    <div class="flow-img on-bottom">
+                        <img src="assets/img/prod_1.jpg" alt="Leather processing workshop workbench close up">
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Row 2 (Image Right, Text Left) -->
-            <div class="stagger-row reverse">
-                <div class="stagger-img" data-reveal="right">
-                    <img src="assets/img/prod_1.jpg" alt="Leather processing workshop workbench close up">
-                </div>
-                <div class="stagger-text" data-reveal="left">
-                    <span>Process Tier 2</span>
-                    <h2>Lining Warp Checks</h2>
-                    <p>Our checkers measure lining wear speeds relative to main bag widths to align inner pockets with outer zips. This keeps duffle bag bases hanging flat even under full travel loads.</p>
-                    <a href="about.html" class="btn-default mt-3">Explore Lining Vents</a>
+                
+                <!-- Column 3: Image Top, Text Bottom -->
+                <div class="flow-item" data-reveal="right">
+                    <div class="flow-img">
+                        <img src="assets/img/prod_2.jpg" alt="Leather accessories and tools flatlay layout">
+                    </div>
+                    <div class="flow-text">
+                        <span>Process Tier 3</span>
+                        <h4>Base Seal Tests</h4>
+                        <p>We test corner wear under simulated travel drops. The hand-riveted canvas base must resist tearing after repeated drops, preserving bag layout safety and appearance.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Section 2 End -->
 
-    <!-- Section 3: Carrier Specifications Table -->
-    <section class="specs-table-section">
+    <!-- Section 3: Structural Parameter Ledger (Table) -->
+    <section class="ledger-section">
         <div class="container">
             <div class="section-title" data-reveal>
                 <span>Carrier Comparison</span>
-                <h2>Carrier Parameter Specs</h2>
+                <h2>Structural Parameter Ledger</h2>
             </div>
             
-            <table class="specs-table" data-reveal="zoom">
+            <table class="ledger-table" data-reveal="zoom">
                 <thead>
                     <tr>
                         <th>Material Type</th>
@@ -223,42 +220,54 @@
     </section>
     <!-- Section 3 End -->
 
-    <!-- Section 4: Radial Circular Progress Dials -->
-    <section class="dials-section">
+    <!-- Section 4: Calibration Meters (Horizontal Progress Bars) -->
+    <section class="progress-section">
         <div class="container">
             <div class="section-title" data-reveal>
                 <span>Performance Calibration</span>
                 <h2>Atelier Defense Limits</h2>
             </div>
             
-            <div class="dials-grid">
-                <!-- Dial 1 -->
-                <div class="dial-item" data-reveal="zoom">
-                    <div class="radial-dial" data-value="98%" style="--progress: 352.8deg;"></div>
-                    <h4>Seam Strength</h4>
-                    <p>Lock-stitched polyester thread designs prevent seam separation under active travel shifts.</p>
+            <div class="progress-list">
+                <!-- Bar 1 -->
+                <div class="bar-item" data-reveal="zoom">
+                    <div class="bar-meta">
+                        <span>Seam Strength</span>
+                        <span>98%</span>
+                    </div>
+                    <div class="bar-outer">
+                        <div class="bar-inner" data-value="98%"></div>
+                    </div>
                 </div>
                 
-                <!-- Dial 2 -->
-                <div class="dial-item" data-reveal="zoom">
-                    <div class="radial-dial" data-value="85%" style="--progress: 306deg;"></div>
-                    <h4>Load Capacity</h4>
-                    <p>Double-backed canvas anchor patches support heavy strap pull weights cleanly.</p>
+                <!-- Bar 2 -->
+                <div class="bar-item" data-reveal="zoom">
+                    <div class="bar-meta">
+                        <span>Load Capacity</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="bar-outer">
+                        <div class="bar-inner mint" data-value="85%"></div>
+                    </div>
                 </div>
                 
-                <!-- Dial 3 -->
-                <div class="dial-item" data-reveal="zoom">
-                    <div class="radial-dial" data-value="90%" style="--progress: 324deg;"></div>
-                    <h4>Water Resistance</h4>
-                    <p>Waxed cotton interfaces block rain droplets and protect inner lining files.</p>
+                <!-- Bar 3 -->
+                <div class="bar-item" data-reveal="zoom">
+                    <div class="bar-meta">
+                        <span>Water Resistance</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar-outer">
+                        <div class="bar-inner" data-value="90%"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Section 4 End -->
 
-    <!-- Centered Dark Footer Start -->
-    <footer class="flat-footer">
+    <!-- Centered Boxy Footer Start -->
+    <footer class="flat-footer text-center">
         <div class="container">
             <div class="footer-brand">
                 <h3>CarryEssence <span>Works</span></h3>
@@ -282,7 +291,7 @@
             </div>
         </div>
     </footer>
-    <!-- Centered Dark Footer End -->
+    <!-- Centered Boxy Footer End -->
 
     <script src="assets/app.js"></script>
 </body>

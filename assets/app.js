@@ -19,35 +19,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Numbers rollups (Stats counter animation)
-    const counters = document.querySelectorAll('.counter-value');
-    if (counters.length > 0) {
-        const counterObserver = new IntersectionObserver((entries) => {
+    // Horizontal Progress Bars Animation
+    const progressInners = document.querySelectorAll('.bar-inner');
+    if (progressInners.length > 0) {
+        const barObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    const counter = entry.target;
-                    const target = parseInt(counter.getAttribute('data-target'), 10);
-                    const suffix = counter.getAttribute('data-suffix') || '';
-                    let count = 0;
-                    const speed = 2000 / target; // Total 2s duration
-
-                    const updateCount = () => {
-                        count++;
-                        counter.innerText = count + suffix;
-                        if (count < target) {
-                            setTimeout(updateCount, speed);
-                        } else {
-                            counter.innerText = target + suffix;
-                        }
-                    };
-                    updateCount();
-                    counterObserver.unobserve(counter);
+                    const bar = entry.target;
+                    const value = bar.getAttribute('data-value');
+                    bar.style.width = value;
+                    barObserver.unobserve(bar);
                 }
             });
         }, {
-            threshold: 0.5
+            threshold: 0.2
         });
 
-        counters.forEach(c => counterObserver.observe(c));
+        progressInners.forEach(b => barObserver.observe(b));
     }
 });
